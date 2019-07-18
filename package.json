@@ -1,0 +1,38 @@
+{
+  "name": "observe-weather",
+  "version": "0.0.2",
+  "description": "A plugin for remote-observer that interfaces with a weather station",
+  "main": "index.js",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remote-observe/observe-weather.git"
+  },
+  "author": "Bret Little",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/remote-observe/observe-weather/issues"
+  },
+  "homepage": "https://github.com/remote-observe/observe-weather#readme",
+  "devDependencies": {
+    "chai": "^4",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^5.13",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5",
+    "npm": "^6.8.0",
+    "nyc": "^13",
+    "sinon": "^7.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fstream": "^1.0.12"
+  }
+}
